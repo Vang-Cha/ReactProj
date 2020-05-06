@@ -1,0 +1,130 @@
+ h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+div {
+    text-align: left;
+    padding: 2px;
+}
+
+.position {
+    font-size: 30px;
+}
+
+.company {
+    font-size: 20px;
+}
+
+.duration {
+    font-size: 20px;
+}
+
+.icstar {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.plusbut {
+    border: 2px solid rgb(10, 121, 196);
+    color: white;
+    background-color: rgb(10, 121, 196);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 180px;
+}
+
+.addExp {
+    margin-top: 200px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.editIcon {
+    height: 30px;
+    margin-right: 10px;
+}
+ .back {
+     height: 40px;
+     margin-top: 20px;
+     margin-left: 10px;
+ }
+
+ .pos {
+ }
+
+ .com {
+     text-align: center;
+     font-size: 25px;
+ }
+
+ .dur {
+     text-align: center;
+     font-size: 2px;
+ }
+
+ h3 {
+     background-color: rgb(10, 121, 196);
+     text-align: center;
+     border: 1px solid black;
+     padding: 30px;
+ }
+
+ .skills {
+     font-size: 25px;
+     border-bottom: 1px solid black;
+     padding: 10px;
+ }
+
+ .mainskills {
+     font-size: 30px;
+ }
+
+ .addSkills {
+    margin-top: 200px;
+    font-size: 20px;
+    margin-left: 40px;
+ }
+
+ .exit {
+     margin-left: 400px;
+     border-radius: 0%;
+     width: 30px;
+     height: 30px;
+     text-align: center;
+     font-weight: bold;
+     border: 2px solid rgb(10, 121, 196);
+     color: white;
+     background-color: rgb(10, 121, 196);
+ }
+
+ .savebut {
+     margin-left: 180px;
+     margin-top: 100px;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     font-size: 20px;
+     font-weight: bold;
+     border: 2px solid rgb(10, 121, 196);
+     color: white;
+     background-color: rgb(10, 121, 196);
+     
+     
+ }
+
+ .modaltitle {
+     border-bottom: 1px solid black;
+ }
+
+ .titletext {
+     font-size: 20px;
+     font-weight: bold;
+ }
