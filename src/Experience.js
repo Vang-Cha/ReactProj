@@ -7,7 +7,7 @@ import style from './style.css'
 import Edit from './Edit.png';
 import Back from './Back.png'
 
- const Eexperience = props => {
+ const Experience = props => {
         return (
         <div className="workhistory">
             <a href="/" className="avatar"></a>
@@ -15,15 +15,15 @@ import Back from './Back.png'
                 <Paper>
                     <Grid container wrap="nowrap" spacing={2}>
                         <Grid item>
-                            <a className="pic">
+                            <p className="pic">
                                 <img className="icstar" src={props.pic}/>
-                            </a>
+                            </p>
                         </Grid>
                         <Grid item xs={10}>
                             <div className="position">
-                               <a href="/" style={{color: "rgb(10, 121, 196)"}}>
+                               <p onClick={props.Showskill} style={{cursor: "pointer", color: "rgb(10, 121, 196)"}}>
                                     {props.position}
-                                </a>
+                                </p>
                             </div>
                             <div className="company">
                                 {props.company}
@@ -45,4 +45,4 @@ import Back from './Back.png'
 };
 
 
-export default Eexperience;
+export default Experience;

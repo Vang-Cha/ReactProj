@@ -11,6 +11,7 @@ div {
 
 .position {
     font-size: 30px;
+    
 }
 
 .company {
@@ -44,7 +45,7 @@ div {
 .addExp {
     margin-top: 200px;
     font-size: 20px;
-    margin-left: 30px;
+    margin-left: 180px;
 }
 
 .editIcon {
@@ -106,7 +107,7 @@ div {
  }
 
  .savebut {
-     margin-left: 180px;
+     margin-left: 200px;
      margin-top: 100px;
      width: 100px;
      height: 100px;
