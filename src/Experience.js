@@ -5,7 +5,6 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import style from './style.css'
 import Edit from './Edit.png';
-import Back from './Back.png'
 
  const Experience = props => {
         return (
@@ -15,15 +14,18 @@ import Back from './Back.png'
                 <Paper>
                     <Grid container wrap="nowrap" spacing={2}>
                         <Grid item>
-                            <p className="pic">
-                                <img className="icstar" src={props.pic}/>
-                            </p>
+                            <div className="avatar">
+                                <img className="pic" src={props.pic}/>
+                            </div>
                         </Grid>
                         <Grid item xs={10}>
                             <div className="position">
-                               <p onClick={props.Showskill} style={{cursor: "pointer", color: "rgb(10, 121, 196)"}}>
+                                <div onClick={() => {
+                                    props.Showskill();
+                                    props.Changeskill(props.position);
+                                    }} style={{color: "rgb(10, 121, 196)"}}>
                                     {props.position}
-                                </p>
+                                </div>
                             </div>
                             <div className="company">
                                 {props.company}
@@ -33,9 +35,9 @@ import Back from './Back.png'
                             </div>
                         </Grid>
                         <Grid>
-                            <a href="/">
+                            <p href="/">
                                 <img className="editIcon" src={Edit} alt="edit"/>
-                            </a>
+                            </p>
                         </Grid>
                     </Grid>
                 </Paper>

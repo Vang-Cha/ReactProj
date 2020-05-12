@@ -1,12 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import Back from './Back.png';
-import style from './style.css';
+import Skillmodal from './App';
+import Expmodal from './App';
 
-
- const Newskills = props => {
+ const Internskills = props => {
         return (
             <div className="skillspage">
                 <h1 className="pos">
@@ -23,8 +20,8 @@ import style from './style.css';
                     <br/>
                     <h3>Technical Skills</h3>
                     <div className="mainskills">
-                        <div className="skills">Javascript</div>
-                        <div className="skills">HTML</div>
+                        <div className="skills">{props.tech1}</div>
+                        <div className="skills">{props.tech2}</div>
                     </div>
                     <br/>
                     <br/>
@@ -32,8 +29,8 @@ import style from './style.css';
                     <br/>
                     <h3>Interpersonal Skills</h3>
                     <div className="mainskills">
-                        <div className="skills">Leadership</div>
-                        <div className="skills">Communication</div>
+                        <div className="skills">{props.inter1}</div>
+                        <div className="skills">{props.inter2}</div>
                     </div>
                 </div>
 
@@ -42,4 +39,4 @@ import style from './style.css';
     };
     
 
-export default Newskills;
+export default Internskills;
